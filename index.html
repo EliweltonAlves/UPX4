@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Flow - Chamado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="side-menu">
+            <h1>URBAN<br>FLOW <span>#</span></h1>
+            <button class="btn" onclick="abrirChamado()">ABRIR OUTRO CHAMADO</button>
+            <button class="btn" onclick="finalizarConversa()">FINALIZAR CONVERSA</button>
+        </div>
+        <div class="content">
+            <div class="chamado-info">
+                <p><strong>Usuário:</strong> Igor</p>
+                <p><strong>Tipo de problema:</strong> Iluminação pública com Problema</p>
+                <p><strong>Endereço:</strong> Rua das Orquídeas, Sorocaba</p>
+                <p><strong>Nível de urgência:</strong> 2 (médio)</p>
+                <p><strong>Resposta:</strong> "Reclamação registrada: problema de iluminação na Rua das Orquídeas, Sorocaba. Nível de urgência: 2. A equipe será acionada para resolver a falha."</p>
+            </div>
+            <div class="chat-input">
+                <input class="input" id="text-input" type="text" placeholder="Type a message...">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
